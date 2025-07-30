@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Scene from '$lib/projects/nebula/scene.svelte';
+	import Scene from '$lib/projects/nebula/scene-ping-pong.svelte';
 	import { Canvas } from '@threlte/core';
 </script>
 
