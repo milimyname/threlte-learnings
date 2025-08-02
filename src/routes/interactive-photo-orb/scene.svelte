@@ -13,12 +13,12 @@
 	let rotation = $state({ x: 0, y: 0 });
 
 	const urls = [
-		'/interactive-photo-orb/cederic-vandenberghe-21DP3hytVHw-unsplash.jpg',
-		'/interactive-photo-orb/dorian-mongel-Yui3DZiX7yM-unsplash.jpg',
-		'/interactive-photo-orb/henrique-ferreira-4CKnbVZ4Tew-unsplash.jpg',
-		'/interactive-photo-orb/marc-wieland-NoThrvStw70-unsplash.jpg',
-		'/interactive-photo-orb/rachel-davis-tn2rBnvIl9I-unsplash.jpg',
-		'/interactive-photo-orb/richard-clark-8tS8ywl126Q-unsplash.jpg'
+		'/interactive-photo-orb/cederic-vandenberghe-21DP3hytVHw-unsplash.jpeg',
+		'/interactive-photo-orb/dorian-mongel-Yui3DZiX7yM-unsplash.jpeg',
+		'/interactive-photo-orb/henrique-ferreira-4CKnbVZ4Tew-unsplash.jpeg',
+		'/interactive-photo-orb/marc-wieland-NoThrvStw70-unsplash.jpeg',
+		'/interactive-photo-orb/rachel-davis-tn2rBnvIl9I-unsplash.jpeg',
+		'/interactive-photo-orb/richard-clark-8tS8ywl126Q-unsplash.jpeg'
 	];
 
 	const raycaster = new THREE.Raycaster();
