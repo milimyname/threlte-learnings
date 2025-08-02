@@ -44,6 +44,11 @@
 		rotation.x += movement.y;
 		raycaster.setFromCamera(pointer, $camera);
 
+		let meshes = Array.from(scene.children)
+			.flatMap((c) => c.children)
+			.filter((o) => o instanceof THREE.Group)
+			.map((group) => group.children[0] as THREE.Mesh);
+
 		meshes.forEach((m) => ((m.material.colorWrite = true), m.material.color.set(0xffffff)));
 
 		const intersects = raycaster.intersectObjects(meshes);
