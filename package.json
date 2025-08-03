@@ -29,6 +29,7 @@
 		"@threlte/extras": "^9.4.3",
 		"@threlte/studio": "^0.1.7",
 		"@types/three": "^0.178.1",
+		"postprocessing": "^6.37.6",
 		"three": "^0.178.0"
 	}
 }
