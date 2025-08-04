@@ -5,7 +5,7 @@
 
 <div>
 	<Canvas>
-		{#if import.meta.env.MODE === 'development'}
+		{#if import.meta.env.MODE !== 'development'}
 			{#await import('@threlte/studio') then { Studio }}
 				<Studio>
 					<Scene />
